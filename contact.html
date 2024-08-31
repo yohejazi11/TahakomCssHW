@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAHAKOM - قدرات تحكم</title>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <link rel="icon" type="image/x-icon" href="https://www.tahakom.com/assets/images/new-identity/tahakom-favicon.png"
+    sizes="16x16 32x32">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Font Awesome CDN -->
+
+</head>
+<body>
+    <header class="main-header">
+        <nav class="main-nav">
+            <div class="header-logo-div">
+                <a href="index.html">
+                    <img class="logo-img" src="https://www.tahakom.com/assets/images/new-identity/tahakom-logo.svg">
+                </a>
+            </div>
+            <ul class="main-ul-nav">
+                <li><a href="index.html" >الرئيسية</a></li>
+                <li><a href="aboutTahakom.html" >عن تحكم</a></li>
+                <li><a href="#">حلول تحكم</a></li>
+                <li><a href="capabilities.html">قدرات تحكم</a></li>
+                <li><a href="#">التوظيف</a></li>
+                <li><a href="#">المركز الإعلامي</a></li>
+                <li><a href="#">الموردين</a></li>
+                <li><a href="contact.html" class="selected-page">تواصل معنا</a></li>
+                <li><a href="#">English</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <div class="container" >
+            <img src="./icons/contact.jpg" alt="تواصل معنا" class="img-contact" >
+    </div>
+
+    <text class="header-contact">تواصل معنا </text>
+
+    <div class="boxform" >
+        
+        <form action="#" method="post">
+            <div class="form-row">
+                <label for="name">الاسم</label>
+                <label for="workname">جهة العمل</label>
+            </div>
+            <div class="form-row">
+                <input type="text" id="name" name="name" required>
+                <input type="text" id="workname" name="workname" required>
+            </div>
+            <div class="form-row" style="margin-top: 30px;">
+                <label for="email">البريد الالكتروني</label>
+            </div>
+            <div class="form-row">
+                <input style=" width: 45vw;" type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-row" style="margin-top: 30px;">
+                <label for="message">الرسالة</label>
+            </div>
+            <div class="form-row">
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+
+            <div class="form-row-report">
+                <div class="g-recaptcha" data-sitekey="6LeuVjMqAAAAADNp6J4Q1S5D7JgovqvfOKio1UOA"></div>
+            </div> 
+
+             <div class="form-row-report"  >
+            <button  class="button-form"type="submit">ارسل الرسالة</button>
+            </div>
+        
+        </form>
+
+    </div>  
+
+    <div class="map-container">
+        <iframe style="width: 56vw;border-radius: 40px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3624.918941294149!2d46.68236062512525!3d24.69531305184695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f036c20b7798b%3A0xa81e92156223b23e!2sSaudi%20Technology%20and%20Security%20Comprehensive%20Control%20Co.%20Ltd.%20(Tahakom)!5e0!3m2!1sar!2ssa!4v1725108873080!5m2!1sar!2ssa" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <text class="location-header">المركز الرئيسي</text>
+
+        <ul class="location-list">
+            <li>ص.ب (45628) الرياض (11522)</li>
+            <li>الهاتف: 011-838-6666</li>
+            <li>المملكة العربية السعودية، الرياض – طريق الملك فهد</li>
+        </ul>
+    
+        <button id="scrollTopBtn" title="Go to top">
+            <i class="fas fa-chevron-up"></i>
+        </button>
+    
+        <script src="script.js"></script>
+
+    
+
+    <footer style="margin-top: 1800px;">
+        <nav class="footer-nav">
+            <ul class="footer-nav-ul">
+                <li><a href="aboutTahakom.html">عن تحكم</a></li>
+                <li><a href="#">حلول تحكم</a></li>
+                <li><a href="capabilities.html">قدرات تحكم</a></li>
+                <li><a href="#">المركز الإعلامي</a></li>
+                <li><a href="#">التوظيف</a></li>
+                <li><a href="#">الموردون</a></li>
+                <li><a href="contact.html">تواصل معنا</a></li>
+            </ul>
+        </nav>
+        <nav class="sub-footer-nav">
+            <ul class="sub-footer-nav-ul">
+                <li>الشركة السعودية للتحكم التقني والأمني الشامل المحدودة 2021 © </li>
+                <li><a href="#">سياسة الإستخدام الآمن</a></li>
+                <li><a href="#">سياسة الخصوصية</a></li>
+                <li class="social-container">
+                    <span style="font-size: 18px;">تابعنا</span>
+                    <button class="youtube-button"></button>
+                    <button class="linkedIn-button"></button>
+                    <button class="x-button"></button>
+                </li>
+
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
+   

@@ -243,27 +243,7 @@ a {
     font-size: 1.2rem;
 }
 
-.scroll-to-top {
-    background-color: var(--subFontColor);
-    color: white;
-    position: fixed;
-    bottom: 50px; 
-    left: 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    width: 32px;
-    height: 32px;
-    background-size: 24px 24px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url(../icons/uparrow.png);
-    box-shadow: 0px 0px 20px 1px rgb(56, 56, 56);
 
-}
-
-.scroll-to-top:hover {
-    background-color: var(--mainColor); 
-}
 
 footer{
     width: 100%;
@@ -389,3 +369,246 @@ footer{
 .about-tahakom-link a{
     margin-left: 20px;
 }
+/*  haneen page 1  */
+.container {
+    background-color:white;
+    width:70vw;
+    height: 40vh;
+    position: relative;
+    top: 150px;
+    right: 15%;
+ }
+
+ .dev1{
+    width: 50%;
+    margin-top: 30px;
+    position: absolute;
+    }
+
+.header{
+    font-size: xx-large;
+    font-weight: bold;
+    color: #6b005c;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+.line1{
+    display: block;
+        content: "";
+        width:18%;
+        height: 4px;
+        background: #6b005c;
+        margin-right: 20px;
+}
+
+.paragraph1{
+    margin-top: 10px;
+    margin-right: 20px;
+    text-align: right;
+    color: #494f55;
+    font-size: 16px;
+}
+.div2{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    right: 52%;
+    margin-top: 30px;
+}
+.photo {
+    width: 33vw; 
+    height: 32vh;  
+}
+
+.container2{
+    background-color: #f6f8f7;
+    width:70vw;
+    height: 40vh;
+    position: relative;
+    top: 150px;
+    right: 15%;
+
+}
+.dev2{
+    width: 33vw; 
+    height: 32vh;  
+}
+.photo2 {
+    width: 35vw; 
+    height: 32vh;  
+}
+
+.container3{
+    width:70vw;
+    height: 40vh;
+    position: relative;
+    top: 150px;
+    right: 15%;
+
+}
+
+.container4{
+    background-color: #f6f8f7;
+    width:70vw;
+    height: 40vh;
+    position: relative;
+    top: 150px;
+    right: 15%;
+}
+
+/* haneen page 2 */
+
+.img-contact{
+    width: 70vw;
+    height: 45vh;
+}
+
+.header-contact{
+    position: absolute;
+    top: 70%;
+    right: 15%;
+    font-size: calc(1.275rem + .3vw);
+    font-weight: 700;
+    color: #6b005c;   
+}
+
+.boxform{
+    width:35vw;
+    height: 80vh;
+    position: absolute;
+    top: 80%;
+    right: 23%;
+    background-color: #e8e4ff56;
+    padding: 0 10% 100px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form{
+     position: relative;
+     top: 35px;
+     right: -130px;
+     width: 800px;
+     height: 300px;
+}
+
+/* Styling form rows */
+.form-row {
+    margin-bottom: 3px;
+}
+
+.button-form {
+    background-color: #b568aa; 
+    color: white;
+    border: none;
+    padding-top: 8px;
+    margin-left: 70px; /* Add spacing to the right if needed */
+    float: left;
+    font-size: 20px;
+    margin-top: 4px;
+    cursor: pointer;
+    border-radius: 7px;
+    width: 10vw;
+    height: 6vh;
+    font-weight: bold;
+}
+
+.form-row-report {
+    overflow: hidden; 
+    margin-bottom: 10px;
+} 
+
+/* Align the reCAPTCHA widget to the left */
+.g-recaptcha {
+    position: relative;
+    left: 64px;
+    float: left; /* Float to the left */
+}
+
+/* Styling labels and inputs */
+.form-row label {
+    display: inline-block; /* Ensure labels stay in line */
+    font-size: 20px;
+    margin-bottom: 5px; /* Space below label */
+    width: 150px; /* Fixed width for alignment */
+    font-weight: bold;
+    margin-left: 200px; /* Space between labels */
+    margin-right: 30px;
+    color: #646464;
+}
+
+.form-row input{
+    border-radius: 10px;
+    width: 20vw;
+    display: inline-block; /* Ensure labels stay in line */
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    margin-right: 20px;
+    margin-left: 20px; 
+    border: 1px solid #ccc;
+
+}
+
+.form-row textarea {
+    margin-right: 23px;
+    width: 45vw;
+    height: 25vh;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+}
+
+.map-container {
+    width: 56vw;
+    height: 400px; /* Adjust height as needed */
+    margin: 0 auto;
+    position: absolute;
+    top: 180%;
+    right: 22%;    
+}
+
+.location-header{
+    position: absolute;
+    top: 242%;
+    right: 25%;
+    font-size: 25px;
+}
+
+.location-list{
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    position: absolute;
+    top: 248%;
+    margin-right: 25%;
+    font-size: 13px;
+
+}
+.location-list li{
+    display: inline;
+    margin-left: 30px;
+}
+
+#scrollTopBtn {
+    position: fixed; 
+    bottom: 30px; 
+    left: 20px; 
+    background-color: #333; 
+    color: white; 
+    border: none; 
+    width: 30px; 
+    height: 30px; 
+    display: none; 
+    justify-content: center; 
+    align-items: center; 
+    cursor: pointer; 
+    font-size: 10px; 
+    border-radius: 5px;
+}
+
+#scrollTopBtn:hover {
+    background-color: #6b005c; }
