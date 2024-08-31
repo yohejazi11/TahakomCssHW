@@ -1,0 +1,391 @@
+* {
+    direction: rtl;
+}
+
+:root {
+    --mainColor: #5c2455;
+    --subFontColor:#787878 ;
+
+    --footerColor1:#692053;
+}
+
+@font-face {
+    font-family: 'TheSansArab';
+    src: url('../fonts/TheSansArabic-Light.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'TheSansArab', sans-serif;
+    padding: 0px;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-header {
+    position: fixed;
+    top: 0;
+    background-color: white;
+    z-index: 1000;
+    width: 100%;
+    height: 150px;
+}
+
+.main-nav {
+    position: relative;
+    direction: ltr;
+    height: 150px;
+    padding: 0 100px;
+
+}
+
+.header-logo-div {
+
+    display: inline-block;
+    width: 15%;
+    height: 100%;
+}
+
+.logo-img {
+    max-width: 150px;
+}
+
+.main-ul-nav {
+    position: absolute;
+    list-style: none;
+    display: inline-block;
+    width: calc(85% - 220px);
+    height: 150px;
+    margin: 0;
+    align-content: center;
+    padding: 0%;
+    right: 110px;
+
+}
+
+.main-ul-nav li {
+    display: inline;
+    margin-left: 3%;
+}
+
+.main-ul-nav li a {
+    text-decoration: none;
+    font-size: 0.9em;
+    font-family: 'TheSansArab', sans-serif;
+    font-weight: bold;
+    color: #494f55;
+}
+.main-ul-nav li
+.selected-page{
+    font-size: 1.1em;
+    font-weight: bold;
+    color: var(--mainColor);
+}
+
+.selected-page{
+    font-size: 1.1em;
+    font-weight: bold;
+    color: var(--mainColor);
+}
+
+.main-content-container {
+    width: calc(100% - 200px);
+    padding: 0 100px;
+    margin-top: 160px;
+}
+
+.img-slider {
+    position: relative;
+    margin: 0 4%;
+
+}
+
+.first-silde-image {
+    width: 100%;
+    margin: auto;
+    direction: ltr;
+}
+
+.right-arrow,
+.left-arrow {
+    position: absolute;
+}
+
+.right-arrow {
+    top: 46%;
+    right: 75px;
+    height: 32px;
+    width: 32px;
+    border: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.left-arrow {
+    top: 46%;
+    left: 75px;
+    height: 32px;
+    width: 32px;
+    border: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+}
+
+.shortcut-about-tahakom-div {
+    direction: rtl;
+    background-color: #f6f8f7;
+    padding: 32px;
+    margin: 15px 4% 0;
+}
+
+.shortcut-about-tahakom-div h3 {
+    color: var(--mainColor);
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.shortcut-about-tahakom-div p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.info-div {
+    margin: 0 4%;
+}
+
+.first-info-div {
+    width: 100%;
+    align-content: center;
+    margin-top: 15px;
+    vertical-align: middle;
+}
+
+.info-img-div,
+.info-paragraph-div {
+    width: calc(50% - 1rem);
+    height: 100%;
+    padding:  .5rem 0 .5rem .5rem;
+    display: inline-block;
+    vertical-align: middle;
+
+
+}
+
+.info-img-div img {
+    width: 100%;
+}
+
+.info-paragraph-div {
+    display: inline-block;
+
+    vertical-align: middle;
+
+}
+
+.info-paragraph-div p {
+    width: 100%;
+    color: var(--subFontColor);
+    line-height: 1.5;
+    padding-right: 10px;
+}
+
+.for-more-button{
+    border-radius: 5px;
+    background: #4c4e55;
+    border: none;
+    color: #fff;
+    width: 22%;
+    height: 26px;
+    margin-right: 15px;
+    float: right;
+    font-size: 16px;
+    font-family: 'TheSansArab', sans-serif;
+    padding: 1px 6px;
+
+}
+.hint-tahakom-container{
+    height: fit-content;
+    margin: 15px 4% 0;
+}
+
+.hit-tahakom-content{
+    margin: auto;
+    background-color: #f6f8f7;
+    padding: 0 32px;
+    text-align: center;
+
+}
+
+.tahakom-hint-item{
+    position: relative;
+    display: inline-block;
+    width: calc((100% - 64px) / 3);
+    margin: auto;
+    vertical-align: middle;
+}
+
+.tahakom-hint-count{
+    position: absolute;
+    left: 30%;
+    top: 22%;
+    font-weight:bolder;
+    font-size: 2.3em;
+    color: var(--subFontColor);
+}
+.hint-tahakom-container h3{
+    color: var(--mainColor);
+    font-size: 1.2rem;
+}
+
+.scroll-to-top {
+    background-color: var(--subFontColor);
+    color: white;
+    position: fixed;
+    bottom: 50px; 
+    left: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 32px;
+    height: 32px;
+    background-size: 24px 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../icons/uparrow.png);
+    box-shadow: 0px 0px 20px 1px rgb(56, 56, 56);
+
+}
+
+.scroll-to-top:hover {
+    background-color: var(--mainColor); 
+}
+
+footer{
+    width: 100%;
+    height: 112px;
+    background-color: var(--footerColor1);
+    text-align: center;
+    margin-top: 250px;
+}
+
+
+.footer-nav-ul{
+    list-style: none;
+    display: inline-block;
+    width: calc(100% - 30px) ;
+    margin: 15px;
+    align-content: center;
+    padding: 0%;
+}
+.footer-nav{
+    width: 100%;
+    text-align: center;
+
+}
+
+.footer-nav-ul li{
+    display: inline;
+    margin-left: 7%;
+}
+
+.footer-nav-ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.sub-footer-nav-ul{
+    list-style: none;
+    display: inline-block;
+    width: calc(100% - 30px) ;
+    margin: 15px;
+    align-content: center;
+    padding: 0%;
+}
+.sub-footer-nav{
+    width: 100%;
+    text-align: center;
+
+}
+
+.sub-footer-nav-ul li{
+    display: inline;
+    margin-left: 7%;
+    color: white;
+    font-size: 10px;
+}
+
+.sub-footer-nav-ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.youtube-button{
+    border: none;
+    background-color: transparent;
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-image: url(../icons/youtube.png);
+}
+.linkedIn-button{
+    border: none;
+    background-color: transparent;
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-image: url(../icons/linkedin.png);
+}
+
+.x-button{
+    border: none;
+    background-color: transparent;
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-image: url(../icons/twitter.png);
+}
+
+.youtube-button,
+.linkedIn-button,
+.x-button{
+    margin-right: 20px;
+}
+.youtube-button:hover{
+    background-image: url(../icons/youtubeH.png);
+}
+.linkedIn-button:hover{
+    background-image: url(../icons/linkedinH.png);
+}
+
+.x-button:hover{
+    background-image: url(../icons/twitterH.png);
+}
+
+.about-tahakom-div {
+    direction: rtl;
+    padding: 32px;
+    margin: 15px 0 0;
+}
+
+.about-tahakom-div h2{
+    font-weight: bolder;
+    color: var(--footerColor1);
+}
+
+.about-tahakom-div p{
+    line-height: 1.5;
+    font-size: 19px;
+    color: var(--subFontColor);
+}
+
+.about-tahakom-link a{
+    margin-left: 20px;
+}
